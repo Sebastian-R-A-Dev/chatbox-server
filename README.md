@@ -42,5 +42,6 @@ Para ejecutar el archivo de prueba, corre el siguiente comando:
 
 ```bash
 python3 app/test.py
+```
 
 ![diagram](app/assets/modelo_chat_box_diagram.drawio.png)
