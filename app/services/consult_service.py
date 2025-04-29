@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 import requests
 
 # === CONFIG VARIABLES ===
-CONTEXT_PATH = '../data/context.json'
+CONTEXT_PATH = 'app/data/context.json'
 OLLAMA_MODEL = 'llama2:latest'
 OLLAMA_URL = 'http://localhost:11434/api/generate'
 

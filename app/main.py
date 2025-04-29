@@ -1,6 +1,6 @@
 #main file logic
 from fastapi import FastAPI
-from routes import consult_route, test_route
+from app.routes import consult_route, test_route
 
 app = FastAPI()
 
