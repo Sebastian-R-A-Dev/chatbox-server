@@ -49,6 +49,7 @@ Para ejecutar el archivo de prueba, corre el siguiente comando:
 python3 app/test.py
 ```
 
+## Diagrama del servidor de la version beta-0-1.
 ![diagram](app/assets/modelo_chat_box_diagram.drawio.png)
 
 
