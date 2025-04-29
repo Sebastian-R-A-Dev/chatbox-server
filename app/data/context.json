@@ -1,3 +1,67 @@
 {
-    "json": "json test"
-}
+    "enfermedades": [
+      {
+        "nombre": "Parvovirosis",
+        "descripcion": "Enfermedad viral altamente contagiosa que afecta principalmente al tracto gastrointestinal de los perros, especialmente a los cachorros. Se transmite por contacto con heces infectadas y puede ser mortal si no se trata a tiempo.",
+        "sintomas": [
+          "Diarrea severa, a menudo con sangre",
+          "Vómitos frecuentes",
+          "Pérdida de apetito",
+          "Letargo y debilidad",
+          "Deshidratación",
+          "Fiebre"
+        ],
+        "tratamientos": [
+          "Hospitalización para cuidados intensivos",
+          "Administración de fluidos intravenosos",
+          "Uso de medicamentos antieméticos y antibióticos",
+          "Soporte nutricional adecuado",
+          "Aislamiento para prevenir propagación",
+          "Vacunación preventiva en cachorros"
+        ],
+        "accion_inmediata": "Llevarlo inmediatamente al veterinario para evaluación y tratamiento. No intentar tratarlo en casa."
+      },
+      {
+        "nombre": "Moquillo",
+        "descripcion": "Enfermedad viral grave que afecta el sistema respiratorio, gastrointestinal y nervioso de los perros.",
+        "sintomas": [
+          "Fiebre",
+          "Secreción nasal y ocular",
+          "Tos",
+          "Vómitos y diarrea",
+          "Pérdida de apetito",
+          "Letargo",
+          "Convulsiones"
+        ],
+        "tratamientos": [
+          "Cuidados de soporte",
+          "Administración de fluidos y electrolitos",
+          "Uso de antibióticos para infecciones secundarias",
+          "Medicamentos para control de síntomas neurológicos",
+          "Vacunación preventiva"
+        ],
+        "accion_inmediata": "Consultar al veterinario de inmediato. Diagnóstico temprano mejora las posibilidades de recuperación."
+      },
+      {
+        "nombre": "Leishmaniosis",
+        "descripcion": "Enfermedad parasitaria transmitida por picaduras de mosquitos flebótomos infectados.",
+        "sintomas": [
+          "Pérdida de peso",
+          "Úlceras cutáneas o pérdida de pelo",
+          "Cojera",
+          "Inflamación de ganglios linfáticos",
+          "Problemas oculares",
+          "Letargo"
+        ],
+        "tratamientos": [
+          "Tratamiento con antiparasitarios",
+          "Cuidados de soporte",
+          "Prevención con collares repelentes",
+          "Vacunación en áreas endémicas",
+          "Monitoreo regular de salud"
+        ],
+        "accion_inmediata": "Llevar al veterinario para pruebas específicas. Seguir tratamiento y medidas preventivas."
+      }
+    ]
+  }
+  

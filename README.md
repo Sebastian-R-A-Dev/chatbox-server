@@ -36,6 +36,10 @@ Este proyecto permite consultar información sobre enfermedades comunes en perro
     ```bash
     pip install -r requirements.txt
     ```
+    - Verifica tus dependencias con:
+    ```bash
+    pip list
+    ```
 
 4. Asegúrate de tener Ollama corriendo en tu máquina local.
 
@@ -47,6 +51,16 @@ Para ejecutar el archivo de prueba, corre el siguiente comando:
 
 ```bash
 python3 app/test.py
+```
+
+## Ejecucion del servidor como REST-API
+- Para pruebas locales podemos ejecutar :
+```bash
+uvicorn main:app --reload
+```
+Tendras disponible una URL como esta con su metodo HTTP: GET
+```bash
+GET http://localhost:8000/status
 ```
 
 ## Diagrama del servidor de la version beta-0-1.
