@@ -54,11 +54,12 @@ python3 app/test.py
 ```
 
 ## Ejecucion del servidor como REST-API
-- Para pruebas locales podemos ejecutar :
+- Para pruebas locales usamos la dependencia de fast-api, ya que es bastante facil de utilizar, podemos ejecutar :
 ```bash
 uvicorn main:app --reload
 ```
-Tendras disponible una URL como esta con su metodo HTTP: GET
+Tendras disponible una URL como esta con su metodo HTTP: , el cual deberia retornar un mensaje "El servicio esta funcionando!", si todo
+fue bien.
 ```bash
 GET http://localhost:8000/status
 ```
