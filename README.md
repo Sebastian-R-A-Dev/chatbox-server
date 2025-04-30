@@ -79,8 +79,11 @@ Tú no cargas el modelo directamente desde Python como un archivo .bin, sino que
 
 ## Flujo del codigo.
 1. Cargar el JSON (context.json).
+
 2 .Crear embeddings de cada enfermedad (concepto, síntomas, etc).
+
 3 .Indexarlos con FAISS.
+
 4. Al recibir una pregunta:
 Embedding de la pregunta.
 Buscar el más cercano en FAISS.
