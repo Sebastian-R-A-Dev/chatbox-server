@@ -61,7 +61,7 @@ PYTHONPATH=app uvicorn main:app --reload
 Tendras disponible una URL como esta con su metodo HTTP: , el cual deberia retornar un mensaje "El servicio esta funcionando!", si todo
 fue bien.
 ```bash
-GET http://localhost:8000/status
+GET http://localhost:8000/api/status
 ```
 
 ## Diagrama del servidor de la version beta-0-1.
